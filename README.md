@@ -27,19 +27,21 @@ The data warehouse follows the Medallion Architecture:
 
 ## 📁 Repository Structure
 
+```
 sql-data-warehouse-project/
-│
-├── datasets/ # Raw datasets used for the project (e.g., ERP and CRM data)
-├── docs/ # Project documentation and architecture details
-│ ├── data_architecture.drawio # Draw.io file illustrating the project's architecture
-│ └── requirements.md # Project requirements and specifications
-├── scripts/ # SQL scripts for ETL and transformations
-│ ├── bronze/ # Scripts for extracting and loading raw data
-│ ├── silver/ # Scripts for cleaning and transforming data
-│ └── gold/ # Scripts for creating analytical models
-├── tests/ # Test scripts and data quality checks
-├── LICENSE # License information
-└── README.md # Project overview and instructions
+├── datasets/             # Raw datasets used for the project (e.g., ERP and CRM data)
+├── docs/                 # Project documentation and architecture details
+│   ├── data_architecture.drawio  # Draw.io file illustrating the project's architecture
+│   └── requirements.md          # Project requirements and specifications
+├── scripts/              # SQL scripts for ETL and transformations
+│   ├── bronze/           # Scripts for extracting and loading raw data
+│   ├── silver/           # Scripts for cleaning and transforming data
+│   └── gold/             # Scripts for creating analytical models
+├── tests/                # Test scripts and data quality checks
+├── LICENSE               # License information
+└── README.md             # Project overview and instructions
+```
+
 
 
 ---
